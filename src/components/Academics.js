@@ -45,7 +45,6 @@ function Academics() {
             <p>Skill Development & Creative Learning</p>
           </div>
         </div>
-
       </div>
     </section>
   );

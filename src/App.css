@@ -5,18 +5,29 @@
   box-sizing: border-box;
 }
 
-html, body {
-  height: 100%;
-  overflow-x: hidden;
-  overscroll-behavior: none;   /* ← fixes white blank space on drag */
+/* html, body {
+  /* min-height: 100%; */
+  /* overflow-x: hidden;
+  overscroll-behavior: none; 
+} */
+html {
+  overscroll-behavior: none;
 }
 
 body {
+  overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
   background-color: #f4f7fb;
   scroll-behavior: smooth;
   color: #333;
 }
+
+/* body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7fb;
+  scroll-behavior: smooth;
+  color: #333;
+} */
 
 /* ================= COMMON SECTION ================= */
 .section {
@@ -613,6 +624,7 @@ footer {
 /* ================= RESPONSIVE — NAVBAR + GENERAL ================= */
 @media (max-width: 768px) {
 
+  
   .navbar {
     padding: 15px 20px;
   }
